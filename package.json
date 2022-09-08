@@ -1,11 +1,11 @@
 {
-  "name": "parcel-project-template",
+  "name": "shop-project",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "homepage": "https://github.com/Ivanka1991/Shop-project",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /Shop-project/"
   },
   "repository": {
     "type": "git",
