@@ -1,0 +1,82 @@
+.test {
+  color: var(--third-accent-color);
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+:root {
+  --accent-color: #0F303F;
+  --second-accent-color: #254A5A;
+  --third-accent-color:#E64926;
+  --fourth-accent-color: #CEC6C4;
+  --fifth-accent-color:#EAE9E8;
+  --main-font: "Open sans", sans-serif;
+  --second-font: "Cormorant Garamond", sans-serif;
+  --third-font: "Cormorant", sans-serif;
+  --fourth-font: "Jost", sans-serif;
+}/*# sourceMappingURL=main.css.map */
