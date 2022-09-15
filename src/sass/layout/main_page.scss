@@ -1,0 +1,51 @@
+.main_section {
+  width: 375px;
+  // height: 600px;
+
+}
+
+.box{
+  height: 600px;
+}
+.banner {
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)
+    ),
+     url('../images/baner/banner1mobile.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  text-align: center;
+}
+
+.brand {
+  margin-top: 166px;
+  font-family: "Cormorant", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24.22px;
+  color:white;
+}
+.barnd_name {
+  font-family: var(--third-font);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.33px;
+  color:white;
+}
+
+.info {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.86px;
+  color:white;
+  margin-top: 35px;
+}
+
+.arrival {
+  height: 600px;
+    }

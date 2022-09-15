@@ -1,5 +1,6 @@
 @import './index.scss';
-@import './base/common';
+@import './base/_common';
 @import './base/container';
 @import './utils/visually-hidden';
 @import './utils/variables';
+@import './layout/main_page.scss';
