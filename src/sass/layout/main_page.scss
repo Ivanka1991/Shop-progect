@@ -1,11 +1,7 @@
-.main_section {
-  width: 375px;
-  // height: 600px;
+// banner
 
-}
-
-.box{
-  height: 600px;
+.banner_box{
+  margin-bottom: 100px;
 }
 .banner {
   height: 460px;
@@ -23,7 +19,7 @@
 
 .brand {
   margin-top: 166px;
-  font-family: "Cormorant", sans-serif;
+  font-family: var(--third-font);
   font-weight: 500;
   font-size: 20px;
   line-height: 24.22px;
@@ -37,7 +33,7 @@
   color:white;
 }
 
-.info {
+.banner_info {
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 16px;
@@ -46,6 +42,136 @@
   margin-top: 35px;
 }
 
+// arrival
+
 .arrival {
   height: 600px;
-    }
+  width: 375px;
+  background-image: url('../images/arrival/arrival1mobile.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+ 
+.arrival_text_box {
+  margin: 40px;  
+}
+.arrival_text {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19.12px;
+  color:white;
+  margin-bottom: 35px;
+}
+.new_arrival {
+  font-family: var(--second-font);
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 51.25px;
+  color: white;
+  margin-bottom: 15px;
+}
+.arrival_info {
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.86px;
+  letter-spacing: 0.045em;
+  color: white;
+}
+.arrival_second_box {
+  width: 375px;
+  height: 600px;
+  padding-top: 50px;
+  background-color: var(--fourth-accent-color);
+}
+.background_box {
+  background-image: url('../images/arrival/arrival2.png');
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 316.67px, 316.67px;
+  width: 375px;
+  height: 500px;
+}
+.arrival_second_text{
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19.12px;
+  color:white;
+}
+
+// popular
+
+.popular_title {
+  font-family: var(--third-font);
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36.33px;
+  letter-spacing: 0.045em;
+  margin-bottom: 50px;
+  margin-top: 70px;
+}
+.popular_img {
+  width: 165px;
+  height: 220px;
+}
+.popular_list {
+display: flex;
+justify-content: space-evenly;
+}
+
+// decoration
+
+.line {
+  display: flex;
+}
+.line_svg {
+  width: 96px;
+  height: 12px;
+  fill: var(--fifth-accent-color);
+  margin-bottom: 50px;
+}
+.hr1 {
+  color: var(--fifth-accent-color);
+  height: 1px;
+  width: 20px;
+}
+.hr2 {
+  color: var(--fifth-accent-color);
+  height: 1px;
+  width: 20px;
+}
+
+// about
+
+.about {
+  height: 400px;
+  background-color: var(--second-accent-color);
+  padding-top: 70px;
+}
+.about_title_span{
+  font-family: var(--second-font);
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 27px;
+  letter-spacing: 20%;
+}
+
+.about_title {
+  font-family: var(--second-font);
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 45px;
+  letter-spacing: 20%;
+}
+.about_text {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
