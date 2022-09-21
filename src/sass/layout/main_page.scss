@@ -85,17 +85,19 @@
 .arrival_second_box {
   width: 375px;
   height: 600px;
-  padding-top: 50px;
   background-color: var(--fourth-accent-color);
+  display: flex;
+  align-items: center;
 }
 .background_box {
   background-image: url('../images/arrival/arrival2.png');
   background-color: white;
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center ;
   background-size: 316.67px, 316.67px;
   width: 375px;
   height: 500px;
+  justify-content: center;
 }
 .arrival_second_text{
   font-family: var(--main-font);
@@ -103,6 +105,10 @@
   font-size: 12px;
   line-height: 19.12px;
   color:white;
+  margin-top: 338px;
+  width: 238px;
+  height: 55px;
+  text-align: center;
 }
 
 // popular
@@ -115,6 +121,7 @@
   letter-spacing: 0.045em;
   margin-bottom: 50px;
   margin-top: 70px;
+  text-align: center;
 }
 .popular_img {
   width: 165px;
@@ -152,14 +159,21 @@ justify-content: space-evenly;
 .about {
   height: 400px;
   background-color: var(--second-accent-color);
-  padding-top: 70px;
+  padding-left: 34px;
+  padding-right: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: flex-start;
 }
-.about_title_span{
+.about_title_p{
   font-family: var(--second-font);
   font-weight: 400;
   font-size: 30px;
   line-height: 27px;
-  letter-spacing: 20%;
+  letter-spacing: 0.2em;
+  color: white;
+  margin-top: 70px;
 }
 
 .about_title {
@@ -168,10 +182,13 @@ justify-content: space-evenly;
   font-size: 50px;
   line-height: 45px;
   letter-spacing: 20%;
+  color: white;
+  margin-bottom: 20px;
 }
 .about_text {
   font-family: var(--main-font);
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 19px;
+  color: white;
 }
