@@ -12,40 +12,59 @@
 <!-- Arrival -->
   <section class="arrival">
     <div class="arrival_box">
-    <!-- <img class="arrival_img"src="./images/arrival/arrival1mobile.png" alt="arrival"> -->
     <div class="arrival_text_box">
     <p class="new_arrival">NEW ARRIVAL</p>
     <p class="arrival_text">Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipLorem ipsumLorem ipLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipLorem ipsumLorem ip</p>
     <a class="arrival_info" href="#">смотреть коллекцию</a>
   </div>
   </div>
-  
-  </section>
   <div class="arrival_second_box">
     <div class="background_box">
     <p class="arrival_second_text">Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipLorem ipsumLorem ip</p>
   </div>
   </div>
+</section>
   <!-- Popular -->
 
   <section class="popular">
     <p class="popular_title">ПОПУЛЯРНОЕ</p>
+    <div class="svg_box">
+    <div class="svg_buble">
+    <svg class="svg_arrow">
+      <use href="./images/sprite.svg#arrow-left"></use>
+    </svg>
+  </div>
+ <div class="svg_buble">
+    <svg class="svg_arrow">
+      <use href="./images/sprite.svg#arrow-right"></use>
+    </svg>
+  </div>
+</div>
     <ul class="popular_list">
       <li class="popular_item">
         <img class="popular_img" src="./images/article/article.png" alt="article">
         <p class="list_item_name">REPLAY</p>
         <p class="list_item_type">Classic shoes</p>
-        <p class="list_item_price">6100 UAH</p>
+        <div class="price_box">
+        <del class="list_item_price">6100 UAH</del>
         <p class="list_item_new_price">3800 UAH</p>
+      </div>
       </li>
       <li class="popular_item">
         <img class="popular_img" src="./images/article/article.png" alt="article">
         <p class="list_item_name">REPLAY</p>
         <p class="list_item_type">Classic shoes</p>
-        <p class="list_item_price">6100 UAH</p>
+        <div class="price_box">
+        <del class="list_item_price">6100 UAH</del>
         <p class="list_item_new_price">3800 UAH</p>
+      </div>
       </li>
     </ul>
+    <!-- <div class="svg_buble">
+    <svg class="svg_arrow">
+      <use href="./images/sprite.svg#arrow-right"></use>
+    </svg>
+  </div> -->
   </section>
 <!-- decoration -->
   <section class="line">
@@ -59,6 +78,7 @@
   <!-- about -->
 
   <section class="about">
+    <div class="decor "><hr class="p1"></div>
       <p class="about_title_p">о</p> 
       <p class="about_title">НАС</p>
     <p class="about_text">Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipLorem ipsumLoreLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumipLorem ipsumLoremLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipLorem ipsumLorem ipsumLorem ipsumLorem </p>
@@ -68,13 +88,15 @@
   <footer class="footer">
     
       <form class="form">
-        <p class="footer_title">Будьте в курсе событий</p>
+        <p class="footer_title">Будьте в курсе <br>событий</p>
         <input type="email" name="email" id="email" placeholder="E-mail" class="footer__form-mail">
-      </form class="form">
+      </form>
+      <div class="footer_links">
       <a class="form_link" href="#">О нас</a>
       <a class="form_link" href="#">Распространенные вопросы</a>
       <a class="form_link" href="#">Бренды</a>
-      <hr>
+    </div>
+      <hr class="footer_hr">
       <div class="footer_box">
       <p class="footer_box_text">Все права защищены  © 2020 Allegria.com</p>
       <p class="footer_box_text">by Ivanka and Hanna</p>
