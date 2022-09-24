@@ -1,0 +1,67 @@
+// arrival
+
+.arrival_box {
+  height: 600px;
+  width: 375px;
+  background-image: url('../images/arrival/arrival1mobile.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.arrival_text_box {
+  margin: 40px;  
+}
+.arrival_text {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19.12px;
+  color:white;
+  margin-bottom: 35px;
+}
+.new_arrival {
+  font-family: var(--second-font);
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 51.25px;
+  color: white;
+  margin-bottom: 15px;
+}
+.arrival_info {
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.86px;
+  letter-spacing: 0.045em;
+  color: white;
+}
+.arrival_second_box {
+  width: 375px;
+  height: 600px;
+  background-color: var(--fourth-accent-color);
+  display: flex;
+  align-items: center;
+}
+.background_box {
+  background-image: url('../images/arrival/arrival2.png');
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center ;
+  background-size: 316.67px, 316.67px;
+  width: 375px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+.arrival_second_text{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19.12px;
+  color:white;
+  margin-top: 338px;
+  width: 238px;
+  height: 55px;
+  text-align: center;
+}

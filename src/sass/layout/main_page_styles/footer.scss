@@ -1,0 +1,66 @@
+.footer {
+  margin-top: 70px;
+
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer_title {
+  font-family: var(--second-font);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+.footer__form-mail{
+list-style: none;
+width: 250px;
+border: 0;
+border-bottom: 1px solid var(--accent-color);
+background: none;
+outline: none;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+color: var(--accent-color);
+margin-top: 30px;
+}
+.footer_links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 35px;
+  margin-bottom: 63px;
+}
+.form_link {
+  list-style: none;
+  text-decoration: none;
+  font-family: var(--main-font);
+  font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #B7C1C5;
+}
+.footer_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  height: 47px;
+}
+.footer_hr {
+  margin: 0;
+}
+.footer_box_text {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 10.93px;
+  color: var(--accent-color);
+}
