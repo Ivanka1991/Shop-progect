@@ -1,30 +1,28 @@
 {
-  "name": "shop-project",
-  "version": "2.0.0",
+  "name": "shop_project",
+  "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/Ivanka1991/Shop-project",
+  "main": "src/index.js",
   "scripts": {
-    "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /Shop-project/"
+    "start": "parcel src/*.html -p 4200 --open",
+    "build": "parcel build src/*.html --no-source-maps"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
-  },
-  "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Buravetska <buravetskay91@gmail.com>",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
-  },
-  "dependencies": {
-    "modern-normalize": "^1.1.0"
-  },
   "devDependencies": {
+    "@parcel/resolver-glob": "^2.7.0",
     "@parcel/transformer-sass": "^2.6.0",
     "parcel": "^2.6.0",
+    "parcel-packager-svg-sprite": "^2.0.0",
     "parcel-reporter-clean-dist": "^1.0.4",
-    "posthtml-include": "^1.7.4"
+    "parcel-transformer-svg-sprite": "^2.0.0",
+    "posthtml-img-autosize": "^0.1.6",
+    "posthtml-include": "^1.7.4",
+    "posthtml-modules": "^0.9.0"
   },
-  "browserslist": "> 0.5%, last 2 versions, not dead"
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "dependencies": {
+    "@parcel/transformer-raw": "^2.7.0",
+    "modern-normalize": "^1.1.0"
+  }
 }

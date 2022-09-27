@@ -1,0 +1,22 @@
+// decoration
+
+.line {
+  display: flex;
+}
+.line__svg {
+  // width: 96px;
+  height: 12px;
+  fill: var(--fifth-accent-color);
+  margin-bottom: 50px;
+  margin-left: 22px;
+  margin-right: 22px;
+}
+.hr1,
+.hr2 {
+  color: var(--fifth-accent-color);
+  width: 100%;
+  border: 1px solid;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}

@@ -1,5 +1,13 @@
-@import './index.scss';
-@import './base/common';
+@import './base/_common';
 @import './base/container';
 @import './utils/visually-hidden';
 @import './utils/variables';
+// @import './layout/main_page_styles/main_page';
+@import './layout/main_page_styles/_arrival';
+@import './layout/main_page_styles/_about';
+@import './layout/main_page_styles/_banner';
+@import './layout/main_page_styles/_decoration';
+@import './layout/main_page_styles/_footer';
+@import './layout/main_page_styles/_popular';
+
+

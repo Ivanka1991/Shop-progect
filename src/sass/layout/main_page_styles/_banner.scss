@@ -1,0 +1,76 @@
+// banner
+
+.banner__box{
+  margin-bottom: 100px;
+}
+.banner {
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)
+    ),
+     url('../images/baner/banner1mobile.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  text-align: center;
+  background-size: 375px;
+}
+
+.brand {
+  margin-top: 166px;
+  font-family: var(--third-font);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24.22px;
+  color:white;
+  text-transform: uppercase;
+}
+.barnd__name {
+  font-family: var(--third-font);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.33px;
+  color:white;
+}
+
+.banner__info {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.86px;
+  color:white;
+  margin-top: 35px;
+}
+@media screen and (min-width: 768px) {
+  .banner__box{
+    margin-bottom: 150px;
+  }
+  .banner {
+    height: 462px;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+      ),
+       url('../images/baner/baner1.png');
+  }
+  .brand {
+    margin-top: 167px;
+    font-size: 20px;
+    line-height: 24.22px;
+  }
+  .barnd__name {
+    font-size: 50px;
+    line-height: 60.55px;
+    font-weight: 400;
+  }
+  .banner__info{
+    letter-spacing: 0.045em;
+    text-transform: uppercase;
+  }
+  
+}
+// @media screen and (min-width: 1200px) {
+
+// }
