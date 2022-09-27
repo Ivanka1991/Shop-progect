@@ -1,6 +1,6 @@
 // arrival
 
-.arrival_box {
+.arrival__box {
   height: 600px;
   width: 375px;
   background-image: url('../images/arrival/arrival1mobile.png');
@@ -10,10 +10,10 @@
   align-items: center;
   justify-content: flex-start;
 }
-.arrival_text_box {
+.arrival__text-box {
   margin: 40px;  
 }
-.arrival_text {
+.arrival__text {
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 12px;
@@ -21,7 +21,7 @@
   color:white;
   margin-bottom: 35px;
 }
-.new_arrival {
+.new__arrival {
   font-family: var(--second-font);
   font-size: 50px;
   font-weight: 500;
@@ -29,22 +29,23 @@
   color: white;
   margin-bottom: 15px;
 }
-.arrival_info {
+.arrival__info {
   font-family: var(--main-font);
   font-size: 16px;
   font-weight: 400;
   line-height: 21.86px;
   letter-spacing: 0.045em;
   color: white;
+  text-transform: uppercase;
 }
-.arrival_second_box {
+.arrival__second-box {
   width: 375px;
   height: 600px;
   background-color: var(--fourth-accent-color);
   display: flex;
   align-items: center;
 }
-.background_box {
+.background__box {
   background-image: url('../images/arrival/arrival2.png');
   background-color: white;
   background-repeat: no-repeat;
@@ -55,7 +56,7 @@
   display: flex;
   justify-content: center;
 }
-.arrival_second_text{
+.arrival__second-text{
   font-weight: 400;
   font-size: 12px;
   line-height: 19.12px;
@@ -64,4 +65,49 @@
   width: 238px;
   height: 55px;
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .arrival__box {
+  background-image: url('../images/arrival/arrival-tablet1.png');
+  height: 700px;
+  width: 768px;
+}
+.arrival__text-box {
+  width: 468px;
+  margin-left: 50px;
+  margin-top: 0;
+} 
+.new__arrival {
+  font-size: 90px;
+  line-height: 92px;
+}
+.arrival__text {
+  font-size: 14px;
+  line-height: 19.12px;
+} 
+.arrival__second-box {
+  width: 768px;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+}
+.background__box {
+  background-image: url('../images/arrival/arrival-tablet2.png');
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center ;
+  background-size: 380px, 380px;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrival__second-text{
+  font-size: 14px;
+  margin-top: 328px;
+  width: 310px;
+  text-align: center;
+}
 }

@@ -8,7 +8,7 @@
   align-items: center;
   flex-direction: column;
 }
-.footer_title {
+.footer__title {
   font-family: var(--second-font);
   font-weight: 600;
   font-size: 20px;
@@ -31,14 +31,14 @@ text-align: center;
 color: var(--accent-color);
 margin-top: 30px;
 }
-.footer_links {
+.footer__links {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 35px;
   margin-bottom: 63px;
 }
-.form_link {
+.form__link {
   list-style: none;
   text-decoration: none;
   font-family: var(--main-font);
@@ -47,17 +47,17 @@ font-size: 14px;
 line-height: 19px;
 color: #B7C1C5;
 }
-.footer_box {
+.footer__box {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 15px;
   height: 47px;
 }
-.footer_hr {
+.footer__hr {
   margin: 0;
 }
-.footer_box_text {
+.footer__box-text {
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 8px;
