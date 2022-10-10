@@ -27,9 +27,10 @@
   font-weight: 400;
   font-size: 50px;
   line-height: 45px;
-  letter-spacing: 20%;
+  letter-spacing: 0.2em;
   color: white;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 .about__text {
   font-family: var(--main-font);
@@ -62,4 +63,69 @@
   border-left: none;
   border-right: none;
   transform: rotate(244deg);
+}
+.about__img {
+display: none;
+}
+@media screen and (min-width: 768px) {
+  .about {
+   padding-top: 9px;
+    height: 500px;
+    padding-left: 135px;
+    padding-right: 117px;
+  }
+  .about__title-p{
+    margin-top: 140px;
+    font-size: 30px;
+  }
+  .about__title {
+    font-size: 90px;
+    line-height: 81px;
+  }
+  .about__text {
+    font-size: 13px;
+    width: 498px; 
+  }
+  .decor {
+    width: 71.68px;
+    height: 71.68px;
+    left: 530.51px;
+   }
+  
+  .p1 {
+    color: white;
+    width: 186.04px;
+  }
+  .about__img {
+    position: absolute;
+    width: 226px;
+    height: 258px;
+    left: 442px;
+    top: 421px;
+    display: inline;
+  }
+
+}
+@media screen and (min-width: 1440px) {
+  .about {
+    padding-left: 200px;
+  }
+  .about__img {
+    position: absolute;
+    width: 474px;
+    height: 543px;
+    top: 48px;
+    left: 793px;
+  }
+  .decor {
+    width: 123px;
+    height: 123px;
+    left: 715px;
+    top: -10px;
+   }
+     
+  .p1 {
+    color: white;
+    width: 400px;
+  }
 }

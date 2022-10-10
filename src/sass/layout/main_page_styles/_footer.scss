@@ -1,6 +1,8 @@
 .footer {
   margin-top: 70px;
-
+}
+.footer__hr2 {
+  display: none;
 }
 .form {
   display: flex;
@@ -16,6 +18,7 @@
   text-align: center;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+  width: 270px;
 }
 .footer__form-mail{
 list-style: none;
@@ -31,6 +34,21 @@ text-align: center;
 color: var(--accent-color);
 margin-top: 30px;
 }
+.footer__form-box {
+  display: flex;
+  align-items: flex-end;
+}
+.footer__btn {
+  border: 2px solid;
+  background-color: transparent;
+  color: var( --third-accent-color);
+  display: none;
+  margin-left: 8px;
+  width: 22px;
+  height: 22px;
+  padding: 0;
+}
+
 .footer__links {
   display: flex;
   justify-content: space-around;
@@ -63,4 +81,55 @@ color: #B7C1C5;
   font-size: 8px;
   line-height: 10.93px;
   color: var(--accent-color);
+}
+
+
+@media screen and (min-width: 768px) {
+  .footer {
+    margin-top: 239px;
+  }
+  .footer__title {
+    line-height: 20px;
+    text-align: center;
+  }
+  .footer__form-mail{
+    margin-top: 31px;
+  }
+  .form__link {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .footer__links {
+    margin-left: 180px;
+    margin-right: 180px;
+  }
+  .footer__box-text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .footer__box {
+    padding: 0 20px;
+    height: 45px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer{
+    margin-top: 125px;
+  }
+  .footer__hr2{
+    display: block;
+    margin: 0;
+    width: 100%;
+    margin-bottom: 65px;
+  }
+  .footer__title {
+    font-size: 30px;
+    line-height: 31px;
+    width: 520px;
+  }
+  .footer__links {
+justify-content: space-evenly;
+  }
+  
 }
