@@ -1,33 +1,31 @@
 {
-  "name": "shop_project",
+  "name": "shop-project",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/Ivanka1991/Shop-project",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel src/index.html -p 4200 --open",
-    "build": "parcel build src/index.html --public-url /Shop-project/"
+    "build": "parcel build src/index.html --public-url /Shop-project/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
-  "author": "Buravetska <buravetskay91@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ivanka1991/Shop-project.git"
+  },
+  "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@parcel/resolver-glob": "^2.7.0",
-    "@parcel/transformer-sass": "^2.6.0",
-    "autoprefixer": "^10.4.12",
-    "parcel": "^2.6.0",
-    "parcel-packager-svg-sprite": "^2.0.0",
-    "parcel-reporter-clean-dist": "^1.0.4",
-    "parcel-transformer-svg-sprite": "^2.0.0",
-    "postcss": "^8.4.17",
-    "posthtml-img-autosize": "^0.1.6",
-    "posthtml-include": "^1.7.4",
-    "posthtml-modules": "^0.9.0"
+  "bugs": {
+    "url": "https://github.com/Ivanka1991/Shop-project/issues"
   },
-  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "homepage": "https://Ivanka1991.github.io/Shop-project",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel-bundler": "^1.12.4",
+    "posthtml-include": "^1.7.4"
+  },
   "dependencies": {
-    "@parcel/optimizer-htmlnano": "^2.7.0",
-    "@parcel/transformer-raw": "^2.7.0",
-    "modern-normalize": "^1.1.0",
-    "posthtml-load-config": "^2.0.0"
+    "gh-pages": "^4.0.0",
+    "parcel-plugin-nuke-dist": "^1.0.1"
   }
 }
