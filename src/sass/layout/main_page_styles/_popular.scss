@@ -16,14 +16,11 @@
   text-align: center;
 }
 .popular__img {
-  // position: relative;
   width: 165px;
   height: 220px;
   margin-bottom: 20px;
-  // z-index: 1;
 }
-.popular__list {
-//  position: relative; 
+.popular__list { 
 display: flex;
 justify-content: space-evenly;
 margin-bottom: 50px;
@@ -63,6 +60,7 @@ margin-bottom: 50px;
 .list__item-price:before {
 	content: "";
 	border-bottom: 2px solid;
+  border: none;
 	position: absolute;
 	top: 0;
 	left: 0;    
@@ -80,7 +78,7 @@ margin-bottom: 50px;
   z-index:2;
   display: flex;
   justify-content: space-between;
-  // width: 375px;
+  width: 100%;
 }
 .svg__buble {
   width: 50px;
@@ -89,9 +87,7 @@ margin-bottom: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: white;
-  // position: absolute;
-  // z-index:2;
+  background-color: rgb(245, 245, 236);
 }
 .svg__arrow {
   width: 8.89px;
@@ -126,17 +122,9 @@ margin-bottom: 50px;
   line-height: 19px;
 }
 .svg__box {
-  width: 100%;
+
   margin-top: 28px
 }
-// .svg__buble {
-//   width: 70px;
-//   height: 70px;
-//   border-radius:  0 100px 100px  0;
-//   // border-top: 5px solid red;
-//   // border-left: 5px solid red;
-//   // border-right: 5px solid red;
-// }
 .left {
   width: 52px;
   height: 70px;
@@ -159,5 +147,34 @@ margin-bottom: 50px;
   .popular {
     margin-top: 119px;
   }
-  
+  .svg__box {
+    width: 73%;
+    margin-top: -54px;
+    margin-left: 192px;
+    margin-right: 192px;
+  }
+  .popular__title {
+    margin-bottom: 75px;
+  }
+  .popular__list {
+   padding-left: 192px;
+   margin-right: 192px;
+   margin-bottom: 103px;
+    }
+  .popular__img {
+    width: 230px;
+    height: 365px;
+    margin-bottom: 29px;
+  }
+  .list__item-name {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .list__item-type {
+    line-height: 23px;
+  }
+  .list__item-price,
+  .list__item-new-price {
+    line-height: 20px;
+  }
 }
