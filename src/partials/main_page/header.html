@@ -5,11 +5,67 @@
       <use href="./images/sprite.svg#logo"></use>
     </svg>
   </div>
-  <div class="header__desctop">
+  <div class="header__desctop" id="mobile-menu" data-menu>
     <ul class="header__list">
-      <li class="header__list-item">Женщины</li>
-      <li class="header__list-item active">Мужчины</li>
+      <button class="header__list-item line-color women">Женщины</button>
+      <button class="header__list-item men">Мужчины</button>
+      <!-- <li class="header__list-item">Женщины</li>
+      <li class="header__list-item active">Мужчины</li> -->
     </ul>
+      <ul class="menu__list">
+        <li class="menu__item">
+          <p class="menu__list-name">Одежда &#43</p>
+          <ul class="menu__item-list">
+            <li class="menu__item-name">Свитшоты и худи</li>
+            <li class="menu__item-name">Платья юбки</li>
+            <li class="menu__item-name">Футболки и топы</li>
+            <li class="menu__item-name">Брюки и шорты</li>
+            <li class="menu__item-name">Рубашки</li>
+            <li class="menu__item-name">Комбинезоны</li>
+            <li class="menu__item-name">Леггинсы</li>
+            <li class="menu__item-name">Куртки</li>
+            <li class="menu__item-name">Пальто</li>
+            <li class="menu__item-name">Плащи</li>
+            <li class="menu__item-name">Желетки </li>
+            <li class="menu__item-name">Ветровки</li>
+          </ul>
+        </li>
+        <li class="menu__item">
+          <p class="menu__list-name">ОБУВЬ &#43</p>
+          <ul class="menu__item-list">
+            <li class="menu__item-name">Кроссовки</li>
+            <li class="menu__item-name">Шлепанцы</li>
+          </ul>
+        </li>
+        <li class="menu__item">
+          <p class="menu__list-name">СУМКИ &#43</p>
+          <ul class="menu__item-list">
+            <li class="menu__item-name">Сумки</li>
+            <li class="menu__item-name">Рюкзаки</li>
+            <li class="menu__item-name">Кроссбоди</li>
+            <li class="menu__item-name">Поясные</li>
+            <li class="menu__item-name">Кроссовки</li>
+            <li class="menu__item-name">Шопперы</li>
+          </ul>
+        </li>
+        <li class="menu__item">
+          <p class="menu__list-name">АКСЕСУАРИ &#43</p>
+          <ul class="menu__item-list">
+            <li class="menu__item-name">Головные уборы</li>
+            <li class="menu__item-name">Перчатки</li>
+            <li class="menu__item-name">Шарфы и платки</li>
+            <li class="menu__item-name">Носки</li>
+            <li class="menu__item-name">Гетры</li>
+            <li class="menu__item-name">Другое</li>
+          </ul>
+        </li>
+        <li class="menu__item">
+          <p class="menu__list-name">БЕЛЬЕ &#43</p>
+          <ul class="menu__item-list">
+            <li class="menu__item-name">Разное</li>
+          </ul>
+        </li>
+      </ul>
     <form class="header__form" action="" method="get">
       <button class="header__btn" type="submit">Поиск</button>
       <input class="header__form-input" name="s" placeholder="" type="search"> 
@@ -32,10 +88,18 @@
     <svg class="header__svg-basket">
       <use href="./images/sprite.svg#basket"></use>
     </svg>
-    <svg class="header__svg-menu">
-      <use href="./images/sprite.svg#menu"></use>
+    <button class="menu-button is-open"
+    type="button" 
+       aria-expanded="false"
+       aria-controls="mobile-menu"
+        data-menu-button>
+    <svg width="14" height="16.62">
+      <use class="header__svg-menu" href="./images/sprite.svg#menu"></use>  
+      <use class="header__svg-cross" href="./images/sprite.svg#icon-cross"></use>
     </svg>
+  <!-- <svg class="header__svg-cross"><use href="./images/sprite.svg#icon-cross"></use>
+  </svg> -->
+    </button>
   </div>
-
   <hr class="header__line">
 </header>
