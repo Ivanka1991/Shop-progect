@@ -3,11 +3,15 @@ body {
 margin: 0;
 background-color: rgb(245, 245, 236);
 }
-.list {
+ul,
+li,
+a,
+p,
+body {
   list-style: none;
-}
-.li {
-  list-style:  none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 h1,
 h2,
