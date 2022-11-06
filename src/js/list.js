@@ -1,10 +1,10 @@
 const women = document.querySelector('.women');
 const men = document.querySelector('.men');
 const list = document.querySelectorAll('.menu__list-name');
-const menuList = document.querySelector('.desc__menu');
+const menuList = document.querySelector('.tablet__menu');
 console.log(menuList);
-// const span = document.querySelector('span')
-// console.log(men, women, list);
+const listLinks = document.querySelector('.menu__list-links');
+const cross = document.querySelector('.cross__menu-btn');
 women.addEventListener('click', function (e) {
   e.preventDefault();
   women.style.color = '#0F303F';
@@ -12,6 +12,7 @@ women.addEventListener('click', function (e) {
   women.classList.add('line-color');
   men.classList.remove('line-color');
   menuList.style.display = 'block';
+  listLinks.style.display = 'flex';
 });
 men.addEventListener('click', function (e) {
   e.preventDefault();
@@ -20,8 +21,13 @@ men.addEventListener('click', function (e) {
   men.classList.add('line-color');
   women.classList.remove('line-color');
   menuList.style.display = 'block';
+  listLinks.style.display = 'flex';
 });
-
+cross.addEventListener('click', function (e) {
+  e.preventDefault();
+  menuList.style.display = 'none';
+  listLinks.style.display = 'none';
+});
 list.forEach(n => {
   n.addEventListener('click', e => {
     const clicked = e.target;
