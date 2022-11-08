@@ -2,7 +2,7 @@
   "name": "shop-project",
   "version": "1.0.0",
   "description": "",
-  "source": "src/index.html",
+  "source": "src/*.html",
   "scripts": {
     "start": "parcel src/index.html -p 4200 --open",
     "build": "parcel build src/index.html --public-url /Shop-project/",
