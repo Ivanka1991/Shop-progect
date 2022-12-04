@@ -1,9 +1,10 @@
 const women = document.querySelector('.women');
 const men = document.querySelector('.men');
 const list = document.querySelectorAll('.menu__list-name');
-const menuList = document.querySelector('.tablet__menu');
+const menuList = document.querySelector('.mobile__menu ');
 console.log(menuList);
 const listLinks = document.querySelector('.menu__list-links');
+console.log(men);
 const cross = document.querySelector('.cross__menu-btn');
 women.addEventListener('click', function (e) {
   e.preventDefault();
